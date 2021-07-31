@@ -54,7 +54,7 @@ Refactor the Polygons (sequence) type, into an iterable. Make sure also that the
     * has a __iterable__ module (__iter__) which has an polygonIterator and the elements 
       in the iterator are computed lazily - i.e. you can no longer use a list as an underlying storage mechanism for your polygons.
    
-   ```
+```
    Polygon class to create polygons which are regular strictly convex.
  |  Regular strict polygons have two properties:
  |  1- All interior angles are less than 180.
@@ -187,5 +187,4 @@ class PolygonIterator(builtins.object)
  |  
  |  __weakref__
  |      list of weak references to the object (if defined)
-          
- 
+```

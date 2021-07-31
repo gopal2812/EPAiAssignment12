@@ -158,16 +158,15 @@ class Polygons(builtins.object)
  |  
  |  PolygonIterator = <class '__main__.Polygons.PolygonIterator'>
  |      This is an Iterator for the polygons class
-Help on class PolygonIterator in module __main__:
 
 class PolygonIterator(builtins.object)
- |  PolygonIterator(poly_obj)
+ |  PolygonIterator(max_edges, radius)
  |  
  |  This is an Iterator for the polygons class
  |  
  |  Methods defined here:
  |  
- |  __init__(self, poly_obj)
+ |  __init__(self, max_edges, radius)
  |      Function initializing the polygon Iterator and
  |      index. Index is used to return the next element in the polygon
  |      sequence when used as a iterator

@@ -11,7 +11,7 @@
         * supports the len() function (__len__)
         * has a proper representation (__repr__)
 """
-
+from polygon import Polygon
 
 class Polygons:
     """
